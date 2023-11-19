@@ -15,7 +15,7 @@ namespace ZooSimulator
         public static void Main(string[] args)
         {
             Console.WriteLine("");
-            // First let's make some behaviours of birds.
+            // behaviours of birds.
             IFly flapflight = new FlapWings();
             IFly slide = new Slides();
             IFly nofly = new NoFly();
