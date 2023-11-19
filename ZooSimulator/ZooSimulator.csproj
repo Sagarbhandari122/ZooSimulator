@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\abstractions\Ifly.cs" />
     <Compile Include="Behaviors\FlapWings.cs" />
     <Compile Include="Behaviors\Floats.cs" />
     <Compile Include="Behaviors\NoFly.cs" />
@@ -59,8 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behaviors\abstractions\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
